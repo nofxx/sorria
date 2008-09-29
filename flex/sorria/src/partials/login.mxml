@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="250" height="150">
+	<mx:Form x="11" y="10" width="229" height="130">
+		<mx:FormHeading label="Login"/>
+		<mx:FormItem label="Name" required="true">
+			<mx:TextInput/>
+		</mx:FormItem>
+		<mx:FormItem label="Pass" required="true">
+			<mx:TextInput/>
+		</mx:FormItem>
+		<mx:FormItem>
+			<mx:CheckBox label="Checkbox"/>
+		</mx:FormItem>
+	</mx:Form>
+	<mx:Button x="189" y="115" label="Login"/>
+</mx:Canvas>
