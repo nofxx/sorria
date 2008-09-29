@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" backgroundColor="0x333333" xmlns:ns1="partials.*">
 	
-	
 	<mx:Style source="estilo.css" />
-	<ns1:login x="102" y="108">
-	</ns1:login>
+	<ns1:login x="102" y="108"/>
+
 </mx:Application>
