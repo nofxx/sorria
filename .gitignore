@@ -1,4 +1,6 @@
 .DS_Store
+.project
+.loadpath
 thumbs.db
 log/*.log
 config/database.yml
