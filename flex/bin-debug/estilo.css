@@ -1,0 +1,92 @@
+@font-face {
+  	src: local("Verdana");
+    fontFamily: "Verdana";
+    fontWeight: normal;
+}
+
+@font-face {
+  	src: local("Verdana");
+    fontFamily: "Verdana";
+    fontWeight: bold; 
+}
+@font-face {
+	src: local("Verdana");
+    fontFamily: "Verdana";
+    font-style: italic;
+}
+
+Application{
+	font-family: Verdana;	
+	font-size: 12;
+}
+	        
+TabNavigator { 
+  	color:0x333333;
+   	themeColor: #34629d;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+	borderColor: #333333;			   
+}
+
+Button {
+	themeColor: #34629d;	
+	border-style:outset;
+	border-color:#34629d;
+	corner-radius:5;
+	color:#000000;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0
+}
+Canvas{
+	color: #000000;
+	theme-color: #34629d;	
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0	
+}
+DataGrid{
+	themeColor: #34629d;
+}
+Alert{
+	background-color: #34629d;	
+	border-color: #34629d;
+}
+HBox{
+	theme-color: #34629d;	
+}
+TextInput{
+	border-style:solid;
+	corner-radius:5;
+	border-color:#CCCCCC;
+	selection-color:#34629d;
+	color:#000000;
+	font-size: 14;
+}
+MenuBar{
+ 	font-family: Verdana;
+    font-size: 14;
+    font-weight:bold;	
+	color:#FFFFFF;
+	font-size:13;
+	border-style:none;
+}	 
+
+List{
+	button-width:100;
+	corner-radius:10;
+	background-color:#5a8ecf;
+}
+
+
+Form{
+	horizontal-center:0;
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	horizontal-center: 0;
+}
